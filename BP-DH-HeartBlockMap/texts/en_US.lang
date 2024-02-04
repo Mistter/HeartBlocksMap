@@ -1,0 +1,5 @@
+pack.name=Heart Block Map BP
+pack.description=Heart Block Map BP
+
+tile.dh:heart_block.name=Heart Block
+item.dh:heart_item.name=Heart

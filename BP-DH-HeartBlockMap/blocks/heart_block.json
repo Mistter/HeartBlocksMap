@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dh:heart_block",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.heart_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "heart_block",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": true,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:loot": "loot_tables/heart_item.json"
+		},
+		"events": {
+		}
+	}
+}

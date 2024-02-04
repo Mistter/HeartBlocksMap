@@ -1,0 +1,3665 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.player_consume": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"increase_heart": "q.is_using_item && q.is_item_name_any('slot.weapon.mainhand', 0, 'dh:heart_item')"
+						}
+					]
+				},
+				"increase_heart": {
+					"on_entry": [
+						"/clear @s dh:heart_item 0 1",
+						"/playsound random.burp @a ~ ~ ~ 1 1 1"
+					],
+					"transitions": [
+						{
+							"set_health_300": "q.max_health == 578"
+						},
+						{
+							"set_health_299": "q.max_health == 576"
+						},
+						{
+							"set_health_298": "q.max_health == 574"
+						},
+						{
+							"set_health_297": "q.max_health == 572"
+						},
+						{
+							"set_health_296": "q.max_health == 570"
+						},
+						{
+							"set_health_295": "q.max_health == 568"
+						},
+						{
+							"set_health_294": "q.max_health == 566"
+						},
+						{
+							"set_health_293": "q.max_health == 564"
+						},
+						{
+							"set_health_292": "q.max_health == 562"
+						},
+						{
+							"set_health_291": "q.max_health == 560"
+						},
+						{
+							"set_health_290": "q.max_health == 558"
+						},
+						{
+							"set_health_289": "q.max_health == 556"
+						},
+						{
+							"set_health_288": "q.max_health == 554"
+						},
+						{
+							"set_health_287": "q.max_health == 552"
+						},
+						{
+							"set_health_286": "q.max_health == 550"
+						},
+						{
+							"set_health_285": "q.max_health == 548"
+						},
+						{
+							"set_health_284": "q.max_health == 546"
+						},
+						{
+							"set_health_283": "q.max_health == 544"
+						},
+						{
+							"set_health_282": "q.max_health == 542"
+						},
+						{
+							"set_health_281": "q.max_health == 540"
+						},
+						{
+							"set_health_280": "q.max_health == 538"
+						},
+						{
+							"set_health_279": "q.max_health == 536"
+						},
+						{
+							"set_health_278": "q.max_health == 534"
+						},
+						{
+							"set_health_277": "q.max_health == 532"
+						},
+						{
+							"set_health_276": "q.max_health == 530"
+						},
+						{
+							"set_health_275": "q.max_health == 528"
+						},
+						{
+							"set_health_274": "q.max_health == 526"
+						},
+						{
+							"set_health_273": "q.max_health == 524"
+						},
+						{
+							"set_health_272": "q.max_health == 522"
+						},
+						{
+							"set_health_271": "q.max_health == 520"
+						},
+						{
+							"set_health_270": "q.max_health == 518"
+						},
+						{
+							"set_health_269": "q.max_health == 516"
+						},
+						{
+							"set_health_268": "q.max_health == 514"
+						},
+						{
+							"set_health_267": "q.max_health == 512"
+						},
+						{
+							"set_health_266": "q.max_health == 510"
+						},
+						{
+							"set_health_265": "q.max_health == 508"
+						},
+						{
+							"set_health_264": "q.max_health == 506"
+						},
+						{
+							"set_health_263": "q.max_health == 504"
+						},
+						{
+							"set_health_262": "q.max_health == 502"
+						},
+						{
+							"set_health_261": "q.max_health == 500"
+						},
+						{
+							"set_health_260": "q.max_health == 498"
+						},
+						{
+							"set_health_259": "q.max_health == 496"
+						},
+						{
+							"set_health_258": "q.max_health == 494"
+						},
+						{
+							"set_health_257": "q.max_health == 492"
+						},
+						{
+							"set_health_256": "q.max_health == 490"
+						},
+						{
+							"set_health_255": "q.max_health == 488"
+						},
+						{
+							"set_health_254": "q.max_health == 486"
+						},
+						{
+							"set_health_253": "q.max_health == 484"
+						},
+						{
+							"set_health_252": "q.max_health == 482"
+						},
+						{
+							"set_health_251": "q.max_health == 480"
+						},
+						{
+							"set_health_250": "q.max_health == 478"
+						},
+						{
+							"set_health_249": "q.max_health == 476"
+						},
+						{
+							"set_health_248": "q.max_health == 474"
+						},
+						{
+							"set_health_247": "q.max_health == 472"
+						},
+						{
+							"set_health_246": "q.max_health == 470"
+						},
+						{
+							"set_health_245": "q.max_health == 468"
+						},
+						{
+							"set_health_244": "q.max_health == 466"
+						},
+						{
+							"set_health_243": "q.max_health == 464"
+						},
+						{
+							"set_health_242": "q.max_health == 462"
+						},
+						{
+							"set_health_241": "q.max_health == 460"
+						},
+						{
+							"set_health_240": "q.max_health == 458"
+						},
+						{
+							"set_health_239": "q.max_health == 456"
+						},
+						{
+							"set_health_238": "q.max_health == 454"
+						},
+						{
+							"set_health_237": "q.max_health == 452"
+						},
+						{
+							"set_health_236": "q.max_health == 450"
+						},
+						{
+							"set_health_235": "q.max_health == 448"
+						},
+						{
+							"set_health_234": "q.max_health == 446"
+						},
+						{
+							"set_health_233": "q.max_health == 444"
+						},
+						{
+							"set_health_232": "q.max_health == 442"
+						},
+						{
+							"set_health_231": "q.max_health == 440"
+						},
+						{
+							"set_health_230": "q.max_health == 438"
+						},
+						{
+							"set_health_229": "q.max_health == 436"
+						},
+						{
+							"set_health_228": "q.max_health == 434"
+						},
+						{
+							"set_health_227": "q.max_health == 432"
+						},
+						{
+							"set_health_226": "q.max_health == 430"
+						},
+						{
+							"set_health_225": "q.max_health == 428"
+						},
+						{
+							"set_health_224": "q.max_health == 426"
+						},
+						{
+							"set_health_223": "q.max_health == 424"
+						},
+						{
+							"set_health_222": "q.max_health == 422"
+						},
+						{
+							"set_health_221": "q.max_health == 420"
+						},
+						{
+							"set_health_220": "q.max_health == 418"
+						},
+						{
+							"set_health_219": "q.max_health == 416"
+						},
+						{
+							"set_health_218": "q.max_health == 414"
+						},
+						{
+							"set_health_217": "q.max_health == 412"
+						},
+						{
+							"set_health_216": "q.max_health == 410"
+						},
+						{
+							"set_health_215": "q.max_health == 408"
+						},
+						{
+							"set_health_214": "q.max_health == 406"
+						},
+						{
+							"set_health_213": "q.max_health == 404"
+						},
+						{
+							"set_health_212": "q.max_health == 402"
+						},
+						{
+							"set_health_211": "q.max_health == 400"
+						},
+						{
+							"set_health_210": "q.max_health == 398"
+						},
+						{
+							"set_health_209": "q.max_health == 396"
+						},
+						{
+							"set_health_208": "q.max_health == 394"
+						},
+						{
+							"set_health_207": "q.max_health == 392"
+						},
+						{
+							"set_health_206": "q.max_health == 390"
+						},
+						{
+							"set_health_205": "q.max_health == 388"
+						},
+						{
+							"set_health_204": "q.max_health == 386"
+						},
+						{
+							"set_health_203": "q.max_health == 384"
+						},
+						{
+							"set_health_202": "q.max_health == 382"
+						},
+						{
+							"set_health_201": "q.max_health == 380"
+						},
+						{
+							"set_health_200": "q.max_health == 378"
+						},
+						{
+							"set_health_199": "q.max_health == 376"
+						},
+						{
+							"set_health_198": "q.max_health == 374"
+						},
+						{
+							"set_health_197": "q.max_health == 372"
+						},
+						{
+							"set_health_196": "q.max_health == 370"
+						},
+						{
+							"set_health_195": "q.max_health == 368"
+						},
+						{
+							"set_health_194": "q.max_health == 366"
+						},
+						{
+							"set_health_193": "q.max_health == 364"
+						},
+						{
+							"set_health_192": "q.max_health == 362"
+						},
+						{
+							"set_health_191": "q.max_health == 360"
+						},
+						{
+							"set_health_190": "q.max_health == 358"
+						},
+						{
+							"set_health_189": "q.max_health == 356"
+						},
+						{
+							"set_health_188": "q.max_health == 354"
+						},
+						{
+							"set_health_187": "q.max_health == 352"
+						},
+						{
+							"set_health_186": "q.max_health == 350"
+						},
+						{
+							"set_health_185": "q.max_health == 348"
+						},
+						{
+							"set_health_184": "q.max_health == 346"
+						},
+						{
+							"set_health_183": "q.max_health == 344"
+						},
+						{
+							"set_health_182": "q.max_health == 342"
+						},
+						{
+							"set_health_181": "q.max_health == 340"
+						},
+						{
+							"set_health_180": "q.max_health == 338"
+						},
+						{
+							"set_health_179": "q.max_health == 336"
+						},
+						{
+							"set_health_178": "q.max_health == 334"
+						},
+						{
+							"set_health_177": "q.max_health == 332"
+						},
+						{
+							"set_health_176": "q.max_health == 330"
+						},
+						{
+							"set_health_175": "q.max_health == 328"
+						},
+						{
+							"set_health_174": "q.max_health == 326"
+						},
+						{
+							"set_health_173": "q.max_health == 324"
+						},
+						{
+							"set_health_172": "q.max_health == 322"
+						},
+						{
+							"set_health_171": "q.max_health == 320"
+						},
+						{
+							"set_health_170": "q.max_health == 318"
+						},
+						{
+							"set_health_169": "q.max_health == 316"
+						},
+						{
+							"set_health_168": "q.max_health == 314"
+						},
+						{
+							"set_health_167": "q.max_health == 312"
+						},
+						{
+							"set_health_166": "q.max_health == 310"
+						},
+						{
+							"set_health_165": "q.max_health == 308"
+						},
+						{
+							"set_health_164": "q.max_health == 306"
+						},
+						{
+							"set_health_163": "q.max_health == 304"
+						},
+						{
+							"set_health_162": "q.max_health == 302"
+						},
+						{
+							"set_health_161": "q.max_health == 300"
+						},
+						{
+							"set_health_160": "q.max_health == 298"
+						},
+						{
+							"set_health_159": "q.max_health == 296"
+						},
+						{
+							"set_health_158": "q.max_health == 294"
+						},
+						{
+							"set_health_157": "q.max_health == 292"
+						},
+						{
+							"set_health_156": "q.max_health == 290"
+						},
+						{
+							"set_health_155": "q.max_health == 288"
+						},
+						{
+							"set_health_154": "q.max_health == 286"
+						},
+						{
+							"set_health_153": "q.max_health == 284"
+						},
+						{
+							"set_health_152": "q.max_health == 282"
+						},
+						{
+							"set_health_151": "q.max_health == 280"
+						},
+						{
+							"set_health_150": "q.max_health == 278"
+						},
+						{
+							"set_health_149": "q.max_health == 276"
+						},
+						{
+							"set_health_148": "q.max_health == 274"
+						},
+						{
+							"set_health_147": "q.max_health == 272"
+						},
+						{
+							"set_health_146": "q.max_health == 270"
+						},
+						{
+							"set_health_145": "q.max_health == 268"
+						},
+						{
+							"set_health_144": "q.max_health == 266"
+						},
+						{
+							"set_health_143": "q.max_health == 264"
+						},
+						{
+							"set_health_142": "q.max_health == 262"
+						},
+						{
+							"set_health_141": "q.max_health == 260"
+						},
+						{
+							"set_health_140": "q.max_health == 258"
+						},
+						{
+							"set_health_139": "q.max_health == 256"
+						},
+						{
+							"set_health_138": "q.max_health == 254"
+						},
+						{
+							"set_health_137": "q.max_health == 252"
+						},
+						{
+							"set_health_136": "q.max_health == 250"
+						},
+						{
+							"set_health_135": "q.max_health == 248"
+						},
+						{
+							"set_health_134": "q.max_health == 246"
+						},
+						{
+							"set_health_133": "q.max_health == 244"
+						},
+						{
+							"set_health_132": "q.max_health == 242"
+						},
+						{
+							"set_health_131": "q.max_health == 240"
+						},
+						{
+							"set_health_130": "q.max_health == 238"
+						},
+						{
+							"set_health_129": "q.max_health == 236"
+						},
+						{
+							"set_health_128": "q.max_health == 234"
+						},
+						{
+							"set_health_127": "q.max_health == 232"
+						},
+						{
+							"set_health_126": "q.max_health == 230"
+						},
+						{
+							"set_health_125": "q.max_health == 228"
+						},
+						{
+							"set_health_124": "q.max_health == 226"
+						},
+						{
+							"set_health_123": "q.max_health == 224"
+						},
+						{
+							"set_health_122": "q.max_health == 222"
+						},
+						{
+							"set_health_121": "q.max_health == 220"
+						},
+						{
+							"set_health_120": "q.max_health == 218"
+						},
+						{
+							"set_health_119": "q.max_health == 216"
+						},
+						{
+							"set_health_118": "q.max_health == 214"
+						},
+						{
+							"set_health_117": "q.max_health == 212"
+						},
+						{
+							"set_health_116": "q.max_health == 210"
+						},
+						{
+							"set_health_115": "q.max_health == 208"
+						},
+						{
+							"set_health_114": "q.max_health == 206"
+						},
+						{
+							"set_health_113": "q.max_health == 204"
+						},
+						{
+							"set_health_112": "q.max_health == 202"
+						},
+						{
+							"set_health_111": "q.max_health == 200"
+						},
+						{
+							"set_health_110": "q.max_health == 198"
+						},
+						{
+							"set_health_109": "q.max_health == 196"
+						},
+						{
+							"set_health_108": "q.max_health == 194"
+						},
+						{
+							"set_health_107": "q.max_health == 192"
+						},
+						{
+							"set_health_106": "q.max_health == 190"
+						},
+						{
+							"set_health_105": "q.max_health == 188"
+						},
+						{
+							"set_health_104": "q.max_health == 186"
+						},
+						{
+							"set_health_103": "q.max_health == 184"
+						},
+						{
+							"set_health_102": "q.max_health == 182"
+						},
+						{
+							"set_health_101": "q.max_health == 180"
+						},
+						{
+							"set_health_100": "q.max_health == 178"
+						},
+						{
+							"set_health_99": "q.max_health == 176"
+						},
+						{
+							"set_health_98": "q.max_health == 174"
+						},
+						{
+							"set_health_97": "q.max_health == 172"
+						},
+						{
+							"set_health_96": "q.max_health == 170"
+						},
+						{
+							"set_health_95": "q.max_health == 168"
+						},
+						{
+							"set_health_94": "q.max_health == 166"
+						},
+						{
+							"set_health_93": "q.max_health == 164"
+						},
+						{
+							"set_health_92": "q.max_health == 162"
+						},
+						{
+							"set_health_91": "q.max_health == 160"
+						},
+						{
+							"set_health_90": "q.max_health == 158"
+						},
+						{
+							"set_health_89": "q.max_health == 156"
+						},
+						{
+							"set_health_88": "q.max_health == 154"
+						},
+						{
+							"set_health_87": "q.max_health == 152"
+						},
+						{
+							"set_health_86": "q.max_health == 150"
+						},
+						{
+							"set_health_85": "q.max_health == 148"
+						},
+						{
+							"set_health_84": "q.max_health == 146"
+						},
+						{
+							"set_health_83": "q.max_health == 144"
+						},
+						{
+							"set_health_82": "q.max_health == 142"
+						},
+						{
+							"set_health_81": "q.max_health == 140"
+						},
+						{
+							"set_health_80": "q.max_health == 138"
+						},
+						{
+							"set_health_79": "q.max_health == 136"
+						},
+						{
+							"set_health_78": "q.max_health == 134"
+						},
+						{
+							"set_health_77": "q.max_health == 132"
+						},
+						{
+							"set_health_76": "q.max_health == 130"
+						},
+						{
+							"set_health_75": "q.max_health == 128"
+						},
+						{
+							"set_health_74": "q.max_health == 126"
+						},
+						{
+							"set_health_73": "q.max_health == 124"
+						},
+						{
+							"set_health_72": "q.max_health == 122"
+						},
+						{
+							"set_health_71": "q.max_health == 120"
+						},
+						{
+							"set_health_70": "q.max_health == 118"
+						},
+						{
+							"set_health_69": "q.max_health == 116"
+						},
+						{
+							"set_health_68": "q.max_health == 114"
+						},
+						{
+							"set_health_67": "q.max_health == 112"
+						},
+						{
+							"set_health_66": "q.max_health == 110"
+						},
+						{
+							"set_health_65": "q.max_health == 108"
+						},
+						{
+							"set_health_64": "q.max_health == 106"
+						},
+						{
+							"set_health_63": "q.max_health == 104"
+						},
+						{
+							"set_health_62": "q.max_health == 102"
+						},
+						{
+							"set_health_61": "q.max_health == 100"
+						},
+						{
+							"set_health_60": "q.max_health == 98"
+						},
+						{
+							"set_health_59": "q.max_health == 96"
+						},
+						{
+							"set_health_58": "q.max_health == 94"
+						},
+						{
+							"set_health_57": "q.max_health == 92"
+						},
+						{
+							"set_health_56": "q.max_health == 90"
+						},
+						{
+							"set_health_55": "q.max_health == 88"
+						},
+						{
+							"set_health_54": "q.max_health == 86"
+						},
+						{
+							"set_health_53": "q.max_health == 84"
+						},
+						{
+							"set_health_52": "q.max_health == 82"
+						},
+						{
+							"set_health_51": "q.max_health == 80"
+						},
+						{
+							"set_health_50": "q.max_health == 78"
+						},
+						{
+							"set_health_49": "q.max_health == 76"
+						},
+						{
+							"set_health_48": "q.max_health == 74"
+						},
+						{
+							"set_health_47": "q.max_health == 72"
+						},
+						{
+							"set_health_46": "q.max_health == 70"
+						},
+						{
+							"set_health_45": "q.max_health == 68"
+						},
+						{
+							"set_health_44": "q.max_health == 66"
+						},
+						{
+							"set_health_43": "q.max_health == 64"
+						},
+						{
+							"set_health_42": "q.max_health == 62"
+						},
+						{
+							"set_health_41": "q.max_health == 60"
+						},
+						{
+							"set_health_40": "q.max_health == 58"
+						},
+						{
+							"set_health_39": "q.max_health == 56"
+						},
+						{
+							"set_health_38": "q.max_health == 54"
+						},
+						{
+							"set_health_37": "q.max_health == 52"
+						},
+						{
+							"set_health_36": "q.max_health == 50"
+						},
+						{
+							"set_health_35": "q.max_health == 48"
+						},
+						{
+							"set_health_34": "q.max_health == 46"
+						},
+						{
+							"set_health_33": "q.max_health == 44"
+						},
+						{
+							"set_health_32": "q.max_health == 42"
+						},
+						{
+							"set_health_31": "q.max_health == 40"
+						},
+						{
+							"set_health_30": "q.max_health == 38"
+						},
+						{
+							"set_health_29": "q.max_health == 36"
+						},
+						{
+							"set_health_28": "q.max_health == 34"
+						},
+						{
+							"set_health_27": "q.max_health == 32"
+						},
+						{
+							"set_health_26": "q.max_health == 30"
+						},
+						{
+							"set_health_25": "q.max_health == 28"
+						},
+						{
+							"set_health_24": "q.max_health == 26"
+						},
+						{
+							"set_health_23": "q.max_health == 24"
+						},
+						{
+							"set_health_22": "q.max_health == 22"
+						},
+						{
+							"set_health_21": "q.max_health == 20"
+						}
+					]
+				},
+				"set_health_21": {
+					"on_entry": [
+						"/event entity @s dh:set_health_21"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_22": {
+					"on_entry": [
+						"/event entity @s dh:set_health_22"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_23": {
+					"on_entry": [
+						"/event entity @s dh:set_health_23"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_24": {
+					"on_entry": [
+						"/event entity @s dh:set_health_24"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_25": {
+					"on_entry": [
+						"/event entity @s dh:set_health_25"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_26": {
+					"on_entry": [
+						"/event entity @s dh:set_health_26"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_27": {
+					"on_entry": [
+						"/event entity @s dh:set_health_27"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_28": {
+					"on_entry": [
+						"/event entity @s dh:set_health_28"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_29": {
+					"on_entry": [
+						"/event entity @s dh:set_health_29"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_30": {
+					"on_entry": [
+						"/event entity @s dh:set_health_30"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_31": {
+					"on_entry": [
+						"/event entity @s dh:set_health_31"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_32": {
+					"on_entry": [
+						"/event entity @s dh:set_health_32"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_33": {
+					"on_entry": [
+						"/event entity @s dh:set_health_33"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_34": {
+					"on_entry": [
+						"/event entity @s dh:set_health_34"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_35": {
+					"on_entry": [
+						"/event entity @s dh:set_health_35"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_36": {
+					"on_entry": [
+						"/event entity @s dh:set_health_36"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_37": {
+					"on_entry": [
+						"/event entity @s dh:set_health_37"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_38": {
+					"on_entry": [
+						"/event entity @s dh:set_health_38"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_39": {
+					"on_entry": [
+						"/event entity @s dh:set_health_39"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_40": {
+					"on_entry": [
+						"/event entity @s dh:set_health_40"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_41": {
+					"on_entry": [
+						"/event entity @s dh:set_health_41"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_42": {
+					"on_entry": [
+						"/event entity @s dh:set_health_42"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_43": {
+					"on_entry": [
+						"/event entity @s dh:set_health_43"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_44": {
+					"on_entry": [
+						"/event entity @s dh:set_health_44"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_45": {
+					"on_entry": [
+						"/event entity @s dh:set_health_45"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_46": {
+					"on_entry": [
+						"/event entity @s dh:set_health_46"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_47": {
+					"on_entry": [
+						"/event entity @s dh:set_health_47"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_48": {
+					"on_entry": [
+						"/event entity @s dh:set_health_48"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_49": {
+					"on_entry": [
+						"/event entity @s dh:set_health_49"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_50": {
+					"on_entry": [
+						"/event entity @s dh:set_health_50"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_51": {
+					"on_entry": [
+						"/event entity @s dh:set_health_51"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_52": {
+					"on_entry": [
+						"/event entity @s dh:set_health_52"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_53": {
+					"on_entry": [
+						"/event entity @s dh:set_health_53"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_54": {
+					"on_entry": [
+						"/event entity @s dh:set_health_54"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_55": {
+					"on_entry": [
+						"/event entity @s dh:set_health_55"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_56": {
+					"on_entry": [
+						"/event entity @s dh:set_health_56"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_57": {
+					"on_entry": [
+						"/event entity @s dh:set_health_57"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_58": {
+					"on_entry": [
+						"/event entity @s dh:set_health_58"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_59": {
+					"on_entry": [
+						"/event entity @s dh:set_health_59"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_60": {
+					"on_entry": [
+						"/event entity @s dh:set_health_60"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_61": {
+					"on_entry": [
+						"/event entity @s dh:set_health_61"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_62": {
+					"on_entry": [
+						"/event entity @s dh:set_health_62"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_63": {
+					"on_entry": [
+						"/event entity @s dh:set_health_63"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_64": {
+					"on_entry": [
+						"/event entity @s dh:set_health_64"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_65": {
+					"on_entry": [
+						"/event entity @s dh:set_health_65"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_66": {
+					"on_entry": [
+						"/event entity @s dh:set_health_66"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_67": {
+					"on_entry": [
+						"/event entity @s dh:set_health_67"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_68": {
+					"on_entry": [
+						"/event entity @s dh:set_health_68"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_69": {
+					"on_entry": [
+						"/event entity @s dh:set_health_69"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_70": {
+					"on_entry": [
+						"/event entity @s dh:set_health_70"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_71": {
+					"on_entry": [
+						"/event entity @s dh:set_health_71"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_72": {
+					"on_entry": [
+						"/event entity @s dh:set_health_72"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_73": {
+					"on_entry": [
+						"/event entity @s dh:set_health_73"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_74": {
+					"on_entry": [
+						"/event entity @s dh:set_health_74"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_75": {
+					"on_entry": [
+						"/event entity @s dh:set_health_75"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_76": {
+					"on_entry": [
+						"/event entity @s dh:set_health_76"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_77": {
+					"on_entry": [
+						"/event entity @s dh:set_health_77"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_78": {
+					"on_entry": [
+						"/event entity @s dh:set_health_78"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_79": {
+					"on_entry": [
+						"/event entity @s dh:set_health_79"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_80": {
+					"on_entry": [
+						"/event entity @s dh:set_health_80"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_81": {
+					"on_entry": [
+						"/event entity @s dh:set_health_81"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_82": {
+					"on_entry": [
+						"/event entity @s dh:set_health_82"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_83": {
+					"on_entry": [
+						"/event entity @s dh:set_health_83"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_84": {
+					"on_entry": [
+						"/event entity @s dh:set_health_84"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_85": {
+					"on_entry": [
+						"/event entity @s dh:set_health_85"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_86": {
+					"on_entry": [
+						"/event entity @s dh:set_health_86"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_87": {
+					"on_entry": [
+						"/event entity @s dh:set_health_87"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_88": {
+					"on_entry": [
+						"/event entity @s dh:set_health_88"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_89": {
+					"on_entry": [
+						"/event entity @s dh:set_health_89"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_90": {
+					"on_entry": [
+						"/event entity @s dh:set_health_90"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_91": {
+					"on_entry": [
+						"/event entity @s dh:set_health_91"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_92": {
+					"on_entry": [
+						"/event entity @s dh:set_health_92"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_93": {
+					"on_entry": [
+						"/event entity @s dh:set_health_93"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_94": {
+					"on_entry": [
+						"/event entity @s dh:set_health_94"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_95": {
+					"on_entry": [
+						"/event entity @s dh:set_health_95"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_96": {
+					"on_entry": [
+						"/event entity @s dh:set_health_96"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_97": {
+					"on_entry": [
+						"/event entity @s dh:set_health_97"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_98": {
+					"on_entry": [
+						"/event entity @s dh:set_health_98"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_99": {
+					"on_entry": [
+						"/event entity @s dh:set_health_99"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_100": {
+					"on_entry": [
+						"/event entity @s dh:set_health_100"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_101": {
+					"on_entry": [
+						"/event entity @s dh:set_health_101"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_102": {
+					"on_entry": [
+						"/event entity @s dh:set_health_102"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_103": {
+					"on_entry": [
+						"/event entity @s dh:set_health_103"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_104": {
+					"on_entry": [
+						"/event entity @s dh:set_health_104"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_105": {
+					"on_entry": [
+						"/event entity @s dh:set_health_105"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_106": {
+					"on_entry": [
+						"/event entity @s dh:set_health_106"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_107": {
+					"on_entry": [
+						"/event entity @s dh:set_health_107"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_108": {
+					"on_entry": [
+						"/event entity @s dh:set_health_108"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_109": {
+					"on_entry": [
+						"/event entity @s dh:set_health_109"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_110": {
+					"on_entry": [
+						"/event entity @s dh:set_health_110"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_111": {
+					"on_entry": [
+						"/event entity @s dh:set_health_111"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_112": {
+					"on_entry": [
+						"/event entity @s dh:set_health_112"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_113": {
+					"on_entry": [
+						"/event entity @s dh:set_health_113"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_114": {
+					"on_entry": [
+						"/event entity @s dh:set_health_114"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_115": {
+					"on_entry": [
+						"/event entity @s dh:set_health_115"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_116": {
+					"on_entry": [
+						"/event entity @s dh:set_health_116"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_117": {
+					"on_entry": [
+						"/event entity @s dh:set_health_117"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_118": {
+					"on_entry": [
+						"/event entity @s dh:set_health_118"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_119": {
+					"on_entry": [
+						"/event entity @s dh:set_health_119"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_120": {
+					"on_entry": [
+						"/event entity @s dh:set_health_120"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_121": {
+					"on_entry": [
+						"/event entity @s dh:set_health_121"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_122": {
+					"on_entry": [
+						"/event entity @s dh:set_health_122"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_123": {
+					"on_entry": [
+						"/event entity @s dh:set_health_123"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_124": {
+					"on_entry": [
+						"/event entity @s dh:set_health_124"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_125": {
+					"on_entry": [
+						"/event entity @s dh:set_health_125"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_126": {
+					"on_entry": [
+						"/event entity @s dh:set_health_126"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_127": {
+					"on_entry": [
+						"/event entity @s dh:set_health_127"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_128": {
+					"on_entry": [
+						"/event entity @s dh:set_health_128"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_129": {
+					"on_entry": [
+						"/event entity @s dh:set_health_129"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_130": {
+					"on_entry": [
+						"/event entity @s dh:set_health_130"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_131": {
+					"on_entry": [
+						"/event entity @s dh:set_health_131"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_132": {
+					"on_entry": [
+						"/event entity @s dh:set_health_132"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_133": {
+					"on_entry": [
+						"/event entity @s dh:set_health_133"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_134": {
+					"on_entry": [
+						"/event entity @s dh:set_health_134"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_135": {
+					"on_entry": [
+						"/event entity @s dh:set_health_135"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_136": {
+					"on_entry": [
+						"/event entity @s dh:set_health_136"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_137": {
+					"on_entry": [
+						"/event entity @s dh:set_health_137"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_138": {
+					"on_entry": [
+						"/event entity @s dh:set_health_138"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_139": {
+					"on_entry": [
+						"/event entity @s dh:set_health_139"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_140": {
+					"on_entry": [
+						"/event entity @s dh:set_health_140"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_141": {
+					"on_entry": [
+						"/event entity @s dh:set_health_141"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_142": {
+					"on_entry": [
+						"/event entity @s dh:set_health_142"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_143": {
+					"on_entry": [
+						"/event entity @s dh:set_health_143"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_144": {
+					"on_entry": [
+						"/event entity @s dh:set_health_144"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_145": {
+					"on_entry": [
+						"/event entity @s dh:set_health_145"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_146": {
+					"on_entry": [
+						"/event entity @s dh:set_health_146"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_147": {
+					"on_entry": [
+						"/event entity @s dh:set_health_147"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_148": {
+					"on_entry": [
+						"/event entity @s dh:set_health_148"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_149": {
+					"on_entry": [
+						"/event entity @s dh:set_health_149"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_150": {
+					"on_entry": [
+						"/event entity @s dh:set_health_150"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_151": {
+					"on_entry": [
+						"/event entity @s dh:set_health_151"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_152": {
+					"on_entry": [
+						"/event entity @s dh:set_health_152"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_153": {
+					"on_entry": [
+						"/event entity @s dh:set_health_153"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_154": {
+					"on_entry": [
+						"/event entity @s dh:set_health_154"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_155": {
+					"on_entry": [
+						"/event entity @s dh:set_health_155"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_156": {
+					"on_entry": [
+						"/event entity @s dh:set_health_156"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_157": {
+					"on_entry": [
+						"/event entity @s dh:set_health_157"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_158": {
+					"on_entry": [
+						"/event entity @s dh:set_health_158"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_159": {
+					"on_entry": [
+						"/event entity @s dh:set_health_159"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_160": {
+					"on_entry": [
+						"/event entity @s dh:set_health_160"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_161": {
+					"on_entry": [
+						"/event entity @s dh:set_health_161"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_162": {
+					"on_entry": [
+						"/event entity @s dh:set_health_162"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_163": {
+					"on_entry": [
+						"/event entity @s dh:set_health_163"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_164": {
+					"on_entry": [
+						"/event entity @s dh:set_health_164"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_165": {
+					"on_entry": [
+						"/event entity @s dh:set_health_165"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_166": {
+					"on_entry": [
+						"/event entity @s dh:set_health_166"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_167": {
+					"on_entry": [
+						"/event entity @s dh:set_health_167"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_168": {
+					"on_entry": [
+						"/event entity @s dh:set_health_168"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_169": {
+					"on_entry": [
+						"/event entity @s dh:set_health_169"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_170": {
+					"on_entry": [
+						"/event entity @s dh:set_health_170"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_171": {
+					"on_entry": [
+						"/event entity @s dh:set_health_171"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_172": {
+					"on_entry": [
+						"/event entity @s dh:set_health_172"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_173": {
+					"on_entry": [
+						"/event entity @s dh:set_health_173"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_174": {
+					"on_entry": [
+						"/event entity @s dh:set_health_174"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_175": {
+					"on_entry": [
+						"/event entity @s dh:set_health_175"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_176": {
+					"on_entry": [
+						"/event entity @s dh:set_health_176"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_177": {
+					"on_entry": [
+						"/event entity @s dh:set_health_177"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_178": {
+					"on_entry": [
+						"/event entity @s dh:set_health_178"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_179": {
+					"on_entry": [
+						"/event entity @s dh:set_health_179"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_180": {
+					"on_entry": [
+						"/event entity @s dh:set_health_180"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_181": {
+					"on_entry": [
+						"/event entity @s dh:set_health_181"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_182": {
+					"on_entry": [
+						"/event entity @s dh:set_health_182"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_183": {
+					"on_entry": [
+						"/event entity @s dh:set_health_183"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_184": {
+					"on_entry": [
+						"/event entity @s dh:set_health_184"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_185": {
+					"on_entry": [
+						"/event entity @s dh:set_health_185"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_186": {
+					"on_entry": [
+						"/event entity @s dh:set_health_186"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_187": {
+					"on_entry": [
+						"/event entity @s dh:set_health_187"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_188": {
+					"on_entry": [
+						"/event entity @s dh:set_health_188"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_189": {
+					"on_entry": [
+						"/event entity @s dh:set_health_189"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_190": {
+					"on_entry": [
+						"/event entity @s dh:set_health_190"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_191": {
+					"on_entry": [
+						"/event entity @s dh:set_health_191"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_192": {
+					"on_entry": [
+						"/event entity @s dh:set_health_192"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_193": {
+					"on_entry": [
+						"/event entity @s dh:set_health_193"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_194": {
+					"on_entry": [
+						"/event entity @s dh:set_health_194"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_195": {
+					"on_entry": [
+						"/event entity @s dh:set_health_195"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_196": {
+					"on_entry": [
+						"/event entity @s dh:set_health_196"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_197": {
+					"on_entry": [
+						"/event entity @s dh:set_health_197"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_198": {
+					"on_entry": [
+						"/event entity @s dh:set_health_198"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_199": {
+					"on_entry": [
+						"/event entity @s dh:set_health_199"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_200": {
+					"on_entry": [
+						"/event entity @s dh:set_health_200"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_201": {
+					"on_entry": [
+						"/event entity @s dh:set_health_201"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_202": {
+					"on_entry": [
+						"/event entity @s dh:set_health_202"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_203": {
+					"on_entry": [
+						"/event entity @s dh:set_health_203"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_204": {
+					"on_entry": [
+						"/event entity @s dh:set_health_204"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_205": {
+					"on_entry": [
+						"/event entity @s dh:set_health_205"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_206": {
+					"on_entry": [
+						"/event entity @s dh:set_health_206"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_207": {
+					"on_entry": [
+						"/event entity @s dh:set_health_207"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_208": {
+					"on_entry": [
+						"/event entity @s dh:set_health_208"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_209": {
+					"on_entry": [
+						"/event entity @s dh:set_health_209"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_210": {
+					"on_entry": [
+						"/event entity @s dh:set_health_210"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_211": {
+					"on_entry": [
+						"/event entity @s dh:set_health_211"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_212": {
+					"on_entry": [
+						"/event entity @s dh:set_health_212"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_213": {
+					"on_entry": [
+						"/event entity @s dh:set_health_213"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_214": {
+					"on_entry": [
+						"/event entity @s dh:set_health_214"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_215": {
+					"on_entry": [
+						"/event entity @s dh:set_health_215"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_216": {
+					"on_entry": [
+						"/event entity @s dh:set_health_216"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_217": {
+					"on_entry": [
+						"/event entity @s dh:set_health_217"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_218": {
+					"on_entry": [
+						"/event entity @s dh:set_health_218"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_219": {
+					"on_entry": [
+						"/event entity @s dh:set_health_219"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_220": {
+					"on_entry": [
+						"/event entity @s dh:set_health_220"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_221": {
+					"on_entry": [
+						"/event entity @s dh:set_health_221"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_222": {
+					"on_entry": [
+						"/event entity @s dh:set_health_222"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_223": {
+					"on_entry": [
+						"/event entity @s dh:set_health_223"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_224": {
+					"on_entry": [
+						"/event entity @s dh:set_health_224"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_225": {
+					"on_entry": [
+						"/event entity @s dh:set_health_225"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_226": {
+					"on_entry": [
+						"/event entity @s dh:set_health_226"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_227": {
+					"on_entry": [
+						"/event entity @s dh:set_health_227"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_228": {
+					"on_entry": [
+						"/event entity @s dh:set_health_228"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_229": {
+					"on_entry": [
+						"/event entity @s dh:set_health_229"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_230": {
+					"on_entry": [
+						"/event entity @s dh:set_health_230"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_231": {
+					"on_entry": [
+						"/event entity @s dh:set_health_231"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_232": {
+					"on_entry": [
+						"/event entity @s dh:set_health_232"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_233": {
+					"on_entry": [
+						"/event entity @s dh:set_health_233"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_234": {
+					"on_entry": [
+						"/event entity @s dh:set_health_234"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_235": {
+					"on_entry": [
+						"/event entity @s dh:set_health_235"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_236": {
+					"on_entry": [
+						"/event entity @s dh:set_health_236"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_237": {
+					"on_entry": [
+						"/event entity @s dh:set_health_237"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_238": {
+					"on_entry": [
+						"/event entity @s dh:set_health_238"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_239": {
+					"on_entry": [
+						"/event entity @s dh:set_health_239"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_240": {
+					"on_entry": [
+						"/event entity @s dh:set_health_240"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_241": {
+					"on_entry": [
+						"/event entity @s dh:set_health_241"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_242": {
+					"on_entry": [
+						"/event entity @s dh:set_health_242"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_243": {
+					"on_entry": [
+						"/event entity @s dh:set_health_243"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_244": {
+					"on_entry": [
+						"/event entity @s dh:set_health_244"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_245": {
+					"on_entry": [
+						"/event entity @s dh:set_health_245"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_246": {
+					"on_entry": [
+						"/event entity @s dh:set_health_246"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_247": {
+					"on_entry": [
+						"/event entity @s dh:set_health_247"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_248": {
+					"on_entry": [
+						"/event entity @s dh:set_health_248"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_249": {
+					"on_entry": [
+						"/event entity @s dh:set_health_249"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_250": {
+					"on_entry": [
+						"/event entity @s dh:set_health_250"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_251": {
+					"on_entry": [
+						"/event entity @s dh:set_health_251"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_252": {
+					"on_entry": [
+						"/event entity @s dh:set_health_252"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_253": {
+					"on_entry": [
+						"/event entity @s dh:set_health_253"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_254": {
+					"on_entry": [
+						"/event entity @s dh:set_health_254"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_255": {
+					"on_entry": [
+						"/event entity @s dh:set_health_255"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_256": {
+					"on_entry": [
+						"/event entity @s dh:set_health_256"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_257": {
+					"on_entry": [
+						"/event entity @s dh:set_health_257"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_258": {
+					"on_entry": [
+						"/event entity @s dh:set_health_258"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_259": {
+					"on_entry": [
+						"/event entity @s dh:set_health_259"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_260": {
+					"on_entry": [
+						"/event entity @s dh:set_health_260"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_261": {
+					"on_entry": [
+						"/event entity @s dh:set_health_261"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_262": {
+					"on_entry": [
+						"/event entity @s dh:set_health_262"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_263": {
+					"on_entry": [
+						"/event entity @s dh:set_health_263"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_264": {
+					"on_entry": [
+						"/event entity @s dh:set_health_264"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_265": {
+					"on_entry": [
+						"/event entity @s dh:set_health_265"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_266": {
+					"on_entry": [
+						"/event entity @s dh:set_health_266"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_267": {
+					"on_entry": [
+						"/event entity @s dh:set_health_267"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_268": {
+					"on_entry": [
+						"/event entity @s dh:set_health_268"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_269": {
+					"on_entry": [
+						"/event entity @s dh:set_health_269"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_270": {
+					"on_entry": [
+						"/event entity @s dh:set_health_270"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_271": {
+					"on_entry": [
+						"/event entity @s dh:set_health_271"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_272": {
+					"on_entry": [
+						"/event entity @s dh:set_health_272"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_273": {
+					"on_entry": [
+						"/event entity @s dh:set_health_273"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_274": {
+					"on_entry": [
+						"/event entity @s dh:set_health_274"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_275": {
+					"on_entry": [
+						"/event entity @s dh:set_health_275"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_276": {
+					"on_entry": [
+						"/event entity @s dh:set_health_276"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_277": {
+					"on_entry": [
+						"/event entity @s dh:set_health_277"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_278": {
+					"on_entry": [
+						"/event entity @s dh:set_health_278"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_279": {
+					"on_entry": [
+						"/event entity @s dh:set_health_279"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_280": {
+					"on_entry": [
+						"/event entity @s dh:set_health_280"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_281": {
+					"on_entry": [
+						"/event entity @s dh:set_health_281"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_282": {
+					"on_entry": [
+						"/event entity @s dh:set_health_282"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_283": {
+					"on_entry": [
+						"/event entity @s dh:set_health_283"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_284": {
+					"on_entry": [
+						"/event entity @s dh:set_health_284"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_285": {
+					"on_entry": [
+						"/event entity @s dh:set_health_285"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_286": {
+					"on_entry": [
+						"/event entity @s dh:set_health_286"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_287": {
+					"on_entry": [
+						"/event entity @s dh:set_health_287"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_288": {
+					"on_entry": [
+						"/event entity @s dh:set_health_288"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_289": {
+					"on_entry": [
+						"/event entity @s dh:set_health_289"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_290": {
+					"on_entry": [
+						"/event entity @s dh:set_health_290"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_291": {
+					"on_entry": [
+						"/event entity @s dh:set_health_291"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_292": {
+					"on_entry": [
+						"/event entity @s dh:set_health_292"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_293": {
+					"on_entry": [
+						"/event entity @s dh:set_health_293"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_294": {
+					"on_entry": [
+						"/event entity @s dh:set_health_294"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_295": {
+					"on_entry": [
+						"/event entity @s dh:set_health_295"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_296": {
+					"on_entry": [
+						"/event entity @s dh:set_health_296"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_297": {
+					"on_entry": [
+						"/event entity @s dh:set_health_297"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_298": {
+					"on_entry": [
+						"/event entity @s dh:set_health_298"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_299": {
+					"on_entry": [
+						"/event entity @s dh:set_health_299"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_300": {
+					"on_entry": [
+						"/event entity @s dh:set_health_300"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				}
+			}
+		}
+	}
+}
