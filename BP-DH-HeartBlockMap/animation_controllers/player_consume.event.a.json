@@ -856,6 +856,123 @@
 						},
 						{
 							"set_health_21": "q.max_health == 20"
+						},
+						{
+							"set_health_20": "q.max_health == 18"
+						},
+						{
+							"set_health_19": "q.max_health == 16"
+						},
+						{
+							"set_health_18": "q.max_health == 14"
+						},
+						{
+							"set_health_17": "q.max_health == 12"
+						},
+						{
+							"set_health_16": "q.max_health == 10"
+						},
+						{
+							"set_health_15": "q.max_health == 8"
+						},
+						{
+							"set_health_14": "q.max_health == 6"
+						},
+						{
+							"set_health_13": "q.max_health == 4"
+						},
+						{
+							"set_health_12": "q.max_health == 2"
+						}
+					]
+				},
+				"set_health_12": {
+					"on_entry": [
+						"/event entity @s dh:set_health_12"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_13": {
+					"on_entry": [
+						"/event entity @s dh:set_health_13"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_14": {
+					"on_entry": [
+						"/event entity @s dh:set_health_14"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_15": {
+					"on_entry": [
+						"/event entity @s dh:set_health_15"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_16": {
+					"on_entry": [
+						"/event entity @s dh:set_health_16"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_17": {
+					"on_entry": [
+						"/event entity @s dh:set_health_17"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_18": {
+					"on_entry": [
+						"/event entity @s dh:set_health_18"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_19": {
+					"on_entry": [
+						"/event entity @s dh:set_health_19"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					]
+				},
+				"set_health_20": {
+					"on_entry": [
+						"/event entity @s dh:set_health_20"
+					],
+					"transitions": [
+						{
+							"default": "(1.0)"
 						}
 					]
 				},

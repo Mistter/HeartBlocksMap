@@ -18,6 +18,66 @@
       }
     },
     "component_groups": {
+      "dh:health": {
+        "minecraft:health": {
+          "value": 2,
+          "max": 2
+        }
+      },
+      "dh:health_12": {
+        "minecraft:health": {
+          "value": 4,
+          "max": 4
+        }
+      },
+      "dh:health_13": {
+        "minecraft:health": {
+          "value": 6,
+          "max": 6
+        }
+      },
+      "dh:health_14": {
+        "minecraft:health": {
+          "value": 8,
+          "max": 8
+        }
+      },
+      "dh:health_15": {
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        }
+      },
+      "dh:health_16": {
+        "minecraft:health": {
+          "value": 12,
+          "max": 12
+        }
+      },
+      "dh:health_17": {
+        "minecraft:health": {
+          "value": 14,
+          "max": 14
+        }
+      },
+      "dh:health_18": {
+        "minecraft:health": {
+          "value": 16,
+          "max": 16
+        }
+      },
+      "dh:health_19": {
+        "minecraft:health": {
+          "value": 18,
+          "max": 18
+        }
+      },
+      "dh:health_20": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        }
+      },
       "dh:health_21": {
         "minecraft:health": {
           "value": 22,
@@ -1875,6 +1935,76 @@
       }
     },
     "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "dh:health"
+          ]
+        }
+      },
+      "dh:set_health_12": {
+        "add": {
+          "component_groups": [
+            "dh:health_12"
+          ]
+        }
+      },
+      "dh:set_health_13": {
+        "add": {
+          "component_groups": [
+            "dh:health_13"
+          ]
+        }
+      },
+      "dh:set_health_14": {
+        "add": {
+          "component_groups": [
+            "dh:health_14"
+          ]
+        }
+      },
+      "dh:set_health_15": {
+        "add": {
+          "component_groups": [
+            "dh:health_15"
+          ]
+        }
+      },
+      "dh:set_health_16": {
+        "add": {
+          "component_groups": [
+            "dh:health_16"
+          ]
+        }
+      },
+      "dh:set_health_17": {
+        "add": {
+          "component_groups": [
+            "dh:health_17"
+          ]
+        }
+      },
+      "dh:set_health_18": {
+        "add": {
+          "component_groups": [
+            "dh:health_18"
+          ]
+        }
+      },
+      "dh:set_health_19": {
+        "add": {
+          "component_groups": [
+            "dh:health_19"
+          ]
+        }
+      },
+      "dh:set_health_20": {
+        "add": {
+          "component_groups": [
+            "dh:health_20"
+          ]
+        }
+      },
       "dh:set_health_21": {
         "add": {
           "component_groups": [
