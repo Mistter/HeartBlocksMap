@@ -1,1 +1,2 @@
 diagnostic.disable.=true
+diagnostic.disable.resourcepack.texture.undefined=true
