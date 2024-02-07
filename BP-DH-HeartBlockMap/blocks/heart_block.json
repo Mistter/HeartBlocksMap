@@ -10,7 +10,7 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "heart_block",
-                    "render_method": "alpha_test"
+                    "render_method": "opaque"
                 }
             },
             "minecraft:collision_box": true,

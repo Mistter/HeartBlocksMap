@@ -14,7 +14,8 @@
 				"increase_heart": {
 					"on_entry": [
 						"/clear @s dh:heart_item 0 1",
-						"/playsound random.burp @a ~ ~ ~ 1 1 1"
+						"/playsound random.burp @a ~ ~ ~ 1 1 1",
+						"/effect @s instant_health 1 0 true"
 					],
 					"transitions": [
 						{
