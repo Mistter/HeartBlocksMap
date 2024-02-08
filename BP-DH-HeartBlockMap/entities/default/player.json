@@ -1797,13 +1797,6 @@
       }
     },
     "components": {
-      "minecraft:healable": {
-        "force_use": false,
-        "items": [{
-          "item": "dh:heart_item",
-          "heal_amount": 1
-      }]
-      },
       "minecraft:experience_reward": {
         "on_death": "Math.Min(query.player_level * 7, 100)"
       },
